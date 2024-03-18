@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background-color: #2d283e;
+  background-image: url("https://images.unsplash.com/photo-1621691719322-c5c034314d3e?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: #d1d7e0;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  color: #d1d7e0;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #802bb1;
+  background-image: linear-gradient(#564f6f, #802bb1);
+  border-color: #802bb1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-screen {
+  border: 10px solid #d1d7e0;
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+  margin-right: 5px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+  border: 1px solid #2d283e;
+  padding-top: 20px;
+  background-color: #d1d7e0;
+  height: 265px;
+  width: 325px;
+}
+
+.cash-drawer-display {
+  font-size: 1.1rem;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #2d283e;
+  width: 55%;
+  height: 95%;
+  color: black;
+  padding: 10px;
+}
